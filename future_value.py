@@ -16,6 +16,6 @@ The equation   FV = PV(1 + rate)**periods
 
     return (present_value * (1 + rate_per_period) ** periods)
 
-print ("$1000 at 2% compounded daily for 3 years yields $", round(future_value(1000, .02, 365, 3), 4))
+print ("$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .02, 365, 3))
 
 
