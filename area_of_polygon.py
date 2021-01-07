@@ -17,6 +17,6 @@ def area_of_polygon(n, s):
     import math
 
 
-    return (s * n**2) / (4 * math.tan(180 / n))
+    return (n * s**2) / (4 * math.tan(180 / n))
 
 print(area_of_polygon(5, 7))
